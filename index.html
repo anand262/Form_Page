@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    input[type=text],
+    select {
+      width: 2%;
+      padding: 2px 3px;
+      margin: 4px 2PX;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      box-sizing: border-box;
+    }
+
+
+    input[type=submit] {
+      width: 10%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    div {
+      border-radius: 5px;
+      font-family: "Times New Roman", Times, serif;
+      background-image: url("https://newcastlebeach.org/images/sample-image-url-3.jpg");
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
+
+  <title>Sai Alliance Ltd.</title>
+</head>
+
+<body>
+  <div>
+    <h1>SAI ALLIANCE LTD.</h1>
+    <form>
+
+
+      Name: <label for="type"></label>
+      <select id="type" name="type">
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Mrs.">Mrs.</option>
+      </select>
+      </datalist>
+      <label for="fname"></label>
+      <input type="name" id="fname" name="fname">
+      <label for="lname"></label>
+      <input type="name" id="lname" name="lname"><br><br>
+      <p>
+        Gender:
+        <label for="Gender"></label>
+        <select id="Gender" name="Gender">
+          <option value="Male">Male.</option>
+          <option value="Female.">Female</option>
+          <option value="Other">Other</option>
+        </select><br><br>
+        <!-- <input list="Gender" name="Gender">
+  <datalist id="Gender">
+    <option value="Male">
+    <option value="Female">
+    <option value="Other">
+    <option value="Prefer not to say">
+  </datalist><br>-->
+
+        <!--<input type="radio" id="Male" name="gender" value="Male">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="gender" value="Female">
+  <label for="Female">Female</label><br>
+  <input type="radio" id="Other" name="gender" value="Other">
+  <label for="Other">Other</label><br><br> -->
+      </p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="number">Email:</label>
+      <input type="" id="email" name="email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password"><br><br>
+
+      <label for="files">Upload Resume:</label>
+      <input type="file" id="files" name="files" multiple><br><br>
+
+      Write about yourself:<br>
+      <textarea name="message" rows="5" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Submit"><br>
+
+    </form>
+  </div>
+</body>
+
+</html>
