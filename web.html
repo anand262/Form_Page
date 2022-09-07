@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="myDiv">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, culpa
+        non. Consequatur soluta eveniet ex ab, similique fugit id quaerat
+        expedita modi excepturi commodi amet repellat, vitae voluptatem magni
+        numquam?
+      </p>
+    </div>
+    <button onclick="myFunction()">Click me</button>
+    <button onclick="myFunction1()">Try it</button>
+    <script>
+      /* function myFunction() {
+         document.getElementById("myDiv").style.backgroundColor = "red";
+       }*/function myFunction() {
+         var y = document.getElementById("myDiv");
+         if (y.style.backgroundColor == "red") {
+           y.style.display = "block";
+         } else {
+           y.style.display = "white";
+         }
+
+       function myFunction1() {
+         var x = document.getElementById("myDiv");
+         if (x.style.display == "none") {
+           x.style.display = "block";
+         } else {
+           x.style.display = "none";
+         }
+       }
+    </script>
+  </body>
+</html>
